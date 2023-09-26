@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro Folha Funcionário"
+        android:gravity="center"
+        android:textSize="26sp"/>
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Nome do Funcionário:"
+        android:layout_marginVertical="20dp" />
+
+    <EditText
+        android:id="@+id/edtHorasTrab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Horas Trabalhadas:"
+        android:layout_marginVertical="20dp" />
+
+    <EditText
+        android:id="@+id/edtValorHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Valor da Hora"
+        android:layout_marginVertical="20dp" />
+
+    <EditText
+        android:id="@+id/edtMesRef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:hint="Mês Referência:"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edtAnoRef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Ano Referência:"
+        android:layout_marginVertical="20dp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Calcular Folha" />
+
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:text="Folha Pagamento" />
+
+    <TextView
+        android:id="@+id/txtNomeFunc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Nome Funcionário:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtHorasTrabalhadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Horas Trabalhadas:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtValorHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Valor da Hora:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtMesRef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Mês Referência:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtAnoRef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Ano Referência:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtSalarioBruto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Salário Bruto:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtValorIR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="IR:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtValorINSS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="INSS:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtValorFGTS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="FGTS:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtSalarioLiquido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Salário Liquido:"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnExcluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Excluir Folha"
+        android:layout_marginVertical="20dp" />
+
+</LinearLayout>
